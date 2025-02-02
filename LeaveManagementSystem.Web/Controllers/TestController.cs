@@ -7,12 +7,12 @@ namespace LeaveManagementSystem.Web.Controllers
     {
         public IActionResult Index()
         {
-            var data = new TestViewModel
+            var data = new TestViewModel  
             {
                 Name = "Student",
                 DateOfBirth = new DateTime(2001,10,24)
             };
-            return View(data);
+            return View(data); 
         }
     }
 }
